@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+:root{
+   --submitting-email-bg:hsl(217, 28%, 15%);
+   --section-bg:hsl(218, 28%, 13%);
+   --cyan:hsl(176, 68%, 64%);
+   --white:hsl(0, 0%, 100%);
+   --blue:hsl(198, 68%, 58%);
+}
+
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: var(--section-bg);
+    color: var(--white);
+}
+
+
+ul li{
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 78px 80px n;
+    background: var(--submitting-email-bg);
+}
+
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-items :not(:last-child){
+    padding-right: 56px;
+}
+
+
+.submiting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-size: 100px 278px;
+    text-align: center;
+}
+
+
+.submiting img{
+    width: 139;
+    padding-top: 70px;
+}
+
+
+.submiting h2{
+    width: 742px;
+    margin: 36px;
+}
+
+
+.submiting p{
+    width: 742px;
+    font-size: 15px;
+    padding: 0 32px;
+}
+
+
+.btn1{
+    width: 180px;
+    margin-bottom: 40px;
+    padding: 10px 0;
+    background: linear-gradient(to right, var(--cyan), var(--blue));
+    font-size: 15px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    height: 50px;
+}
+
+
+.btn:hover{
+    cursor: pointer;
+    background: var(--blue);
+}
+
+
+.another{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:  100px 100px;
+    padding: 70px 0;
+    margin: 0 80px;
+    align-items: center;
+}
+
+
+.anothers{
+text-align: center;
+}
+
+
+.another h3{
+    margin: 25px 0 12px 0;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.extra{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    margin-top: 80px;
+}
+
+
+.img-per{
+    height: 460px;
+    width: auto;
+    margin-right: 5px;
+}
+
+
+.tex :not(:last-child){
+    margin-bottom: 30px;
+}
+
+
+.disk{
+    color: var(--cyan);
+    border-bottom: 1px solid var(--cyan);
+}
